@@ -17,14 +17,15 @@ body{
 }
 
 .apresentacao{
-    margin: 10% 15%;
+    margin-top: 1%;
+    margin-left: 2%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .apresentacao img{
-    max-width: 100%;
+    max-width: 50vh;
     height: auto;
 }
 
@@ -47,7 +48,7 @@ body{
 
 .apresentacao__links{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .apresentacao__links__link{
@@ -57,7 +58,8 @@ body{
     border-radius: 16px;
     font-size: 24px;
     font-weight: 600;
-    padding: 25px 0;
+    padding: 25px;
+    margin: 25px;
     text-decoration: none;
     color: #000000;
     font-family: 'Montserrat', sans-serif;
